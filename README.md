@@ -16,7 +16,7 @@ In the following we describe the setup and configuration of the SIGNL4 Plugin fo
 
 2. Copy the two scripts ("signl4_host_notify.sh" and "signl4_service_notify.sh") to your Nagios plugin directory (the location may vary).
 
-3. Edit the SIGNL4 URLs in these scripts to the match your SIGNL4 webhook URL including your team secret (replace "<team-secret>" with your own team secret).
+3. Edit the SIGNL4 URLs in these scripts to the match your SIGNL4 webhook URL including your team secret (replace "\<team-secret\>" with your own team secret).
 
 4. Define the new notification commands in the Nagios configuration (a sample configuration is available in the file "signl4_commands.cfg"). Please, modify the paths accordingly.
 
